@@ -1,8 +1,8 @@
 module Spree
   class Gateway::Payeezy < Gateway
     preference :apikey, :string
-    preference :apisecret
-    preference :token
+    preference :apisecret, :string
+    preference :token, :string
 
 
     def provider_class
